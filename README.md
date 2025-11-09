@@ -52,54 +52,53 @@ Login padrão para testes:
 ##  Estrutura de Pastas
 
 FRONT-END-4-SPRINT-MAIN/
-│
 ├── src/
-│ ├── api/
-│ │ └── api.ts
-│ │
-│ ├── assets/
-│ │ ├── icons/
-│ │ │ ├── combo-chart--v1.png
-│ │ │ ├── edit.png
-│ │ │ └── pie-chart.png
-│ │ ├── Bruno.jpeg
-│ │ ├── Gabriel.jpeg
-│ │ ├── leo.jpeg
-│ │ ├── logo.png
-│ │ └── tecnologia.jpeg
-│ │
-│ ├── components/
-│ │ ├── Footer.tsx
-│ │ ├── Header.tsx
-│ │ └── IntegranteCard.tsx
-│ │
-│ ├── pages/
-│ │ ├── login/
-│ │ │ └── page.tsx
-│ │ ├── painel/
-│ │ │ ├── acompanhamentos/page.tsx
-│ │ │ ├── acompanhantes/page.tsx
-│ │ │ ├── atendimentos/page.tsx
-│ │ │ ├── consultas/page.tsx
-│ │ │ ├── especialidades/page.tsx
-│ │ │ ├── feedback/page.tsx
-│ │ │ ├── medicos/page.tsx
-│ │ │ ├── pacientes/page.tsx
-│ │ │ ├── remedios/page.tsx
-│ │ │ ├── HomePainel.tsx
-│ │ │ ├── layoutPainel.tsx
-│ │ │ └── PainelPage.tsx
-│ │ ├── Contato.tsx
-│ │ ├── FAQ.tsx
-│ │ ├── Home.tsx
-│ │ ├── IntegranteDetalhe.tsx
-│ │ ├── Integrantes.tsx
-│ │ └── Projeto.tsx
-│ │
-│ ├── App.tsx
-│ ├── main.tsx
-│ ├── index.css
-│ └── vite-env.d.ts
+│   ├── api/
+│   │   └── api.ts
+│   │
+│   ├── assets/
+│   │   ├── icons/
+│   │   │   ├── combo-chart--v1.png
+│   │   │   ├── edit.png
+│   │   │   └── pie-chart.png
+│   │   ├── Bruno.jpeg
+│   │   ├── Gabriel.jpeg
+│   │   ├── leo.jpeg
+│   │   ├── logo.png
+│   │   └── tecnologia.jpeg
+│   │
+│   ├── components/
+│   │   ├── Footer.tsx
+│   │   ├── Header.tsx
+│   │   └── IntegranteCard.tsx
+│   │
+│   ├── pages/
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   ├── painel/
+│   │   │   ├── acompanhamentos/page.tsx
+│   │   │   ├── acompanhantes/page.tsx
+│   │   │   ├── atendimentos/page.tsx
+│   │   │   ├── consultas/page.tsx
+│   │   │   ├── especialidades/page.tsx
+│   │   │   ├── feedback/page.tsx
+│   │   │   ├── medicos/page.tsx
+│   │   │   ├── pacientes/page.tsx
+│   │   │   ├── remedios/page.tsx
+│   │   │   ├── HomePainel.tsx
+│   │   │   ├── layoutPainel.tsx
+│   │   │   └── PainelPage.tsx
+│   │   ├── Contato.tsx
+│   │   ├── FAQ.tsx
+│   │   ├── Home.tsx
+│   │   ├── IntegranteDetalhe.tsx
+│   │   ├── Integrantes.tsx
+│   │   └── Projeto.tsx
+│   │
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
+│   └── vite-env.d.ts
 │
 ├── package.json
 ├── tsconfig.json
@@ -107,7 +106,6 @@ FRONT-END-4-SPRINT-MAIN/
 ├── vite.config.ts
 ├── .gitignore
 └── README.md
-
 ---
 
 ##  Links Importantes
