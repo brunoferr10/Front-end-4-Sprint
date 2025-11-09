@@ -9,6 +9,7 @@ type Acompanhante = {
 }
 
 const CANDIDATE_ROUTES = [
+  
   "https://five66293.onrender.com/acompanhante",   
   "https://five66293.onrender.com/acompanhantes",  
 ] as const
