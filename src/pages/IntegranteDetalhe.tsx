@@ -8,9 +8,9 @@ export default function IntegranteDetalhe() {
 
 
   const integrantes: Integrante[] = [
-    { id: "1", nome: "Gabriel", rm: "12345", turma: "1TDSR", img: "/src/assets/Gabriel.jpeg", linkedin: "https://linkedin.com" },
-    { id: "2", nome: "Bruno", rm: "67890", turma: "1TDSR", img: "/src/assets/Bruno.jpeg", linkedin: "https://linkedin.com" },
-    { id: "3", nome: "Lucas", rm: "11121", turma: "1TDSR", img: "/src/assets/Lucas.jpeg", linkedin: "https://linkedin.com" },
+    { id: "1", nome: "Gabriel", rm: "566293", turma: "1TDSR", img: "/src/assets/Gabriel.jpeg", linkedin: "https://www.linkedin.com/in/gabriel-robertoni-a15885322" },
+    { id: "2", nome: "Bruno", rm: "563489", turma: "1TDSR", img: "/src/assets/Bruno.jpeg", linkedin: "https://www.linkedin.com/in/bruno-ferreira-4837a0207" },
+    { id: "3", nome: "Leonardo", rm: "562944", turma: "1TDSR", img: "/src/assets/Leonardo.jpeg", linkedin: "https://br.linkedin.com/in/leonardo-aragaki-rodrigues-066a5aa1" },
   ];
 
   useEffect(() => {

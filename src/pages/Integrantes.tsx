@@ -1,7 +1,7 @@
 import IntegranteCard, { Integrante } from "@/components/IntegranteCard";
 import Bruno from "@/assets/Bruno.jpeg";
 import Gabriel from "@/assets/Gabriel.jpeg";
-import Leonardo from "@/assets/Leo.jpeg";
+import Leonardo from "@/assets/Leonardo.jpeg";
 
 const integrantes: Integrante[] = [
   {
