@@ -33,7 +33,7 @@ Login padrão para testes:
 -  **E-mail:** `admin@invox.com`  
 -  **Senha:** `123456`
 
-> Também é possível **cadastrar novos usuários** diretamente pela tela de login.
+- Também é possível **cadastrar novos usuários** diretamente pela tela de login.
 
 ---
 
@@ -51,71 +51,52 @@ Login padrão para testes:
 
 ##  Estrutura de Pastas
 
+## 📁 Estrutura de Pastas
+
 FRONT-END-4-SPRINT-MAIN/
 │
-├── src/
-│   ├── api/
-│   │   └── api.ts
+├── src/                     # Código-fonte principal
+│   ├── api/                 # Comunicação com a API (api.ts)
+│   ├── assets/              # Imagens e ícones do projeto
+│   │   ├── icons/           # Ícones utilizados no painel
+│   │   ├── Bruno.jpeg       # Foto integrante 1
+│   │   ├── Gabriel.jpeg     # Foto integrante 2
+│   │   ├── leo.jpeg         # Foto integrante 3
+│   │   ├── logo.png         # Logotipo do projeto
+│   │   └── tecnologia.jpeg  # Imagem principal do site
+│   ├── components/          # Componentes reutilizáveis (Header, Footer, Cards)
+│   ├── pages/               # Páginas principais do projeto
+│   │   ├── login/           # Página de login (acesso inicial)
+│   │   ├── painel/          # Painel do sistema (área restrita)
+│   │   │   ├── acompanhamentos/ # Página de acompanhamento de pacientes
+│   │   │   ├── acompanhantes/   # Cadastro de acompanhantes
+│   │   │   ├── atendimentos/    # Registro de atendimentos
+│   │   │   ├── consultas/       # Controle de consultas
+│   │   │   ├── especialidades/  # Cadastro de especialidades
+│   │   │   ├── feedback/        # Registro de feedbacks
+│   │   │   ├── medicos/         # Cadastro de médicos
+│   │   │   ├── pacientes/       # Cadastro de pacientes
+│   │   │   ├── remedios/        # Controle de medicamentos
+│   │   │   ├── HomePainel.tsx   # Página inicial do painel
+│   │   │   ├── layoutPainel.tsx # Layout base do painel
+│   │   │   └── PainelPage.tsx   # Gerenciador das rotas internas do painel
+│   │   ├── Contato.tsx          # Página de contato
+│   │   ├── FAQ.tsx              # Página de perguntas frequentes
+│   │   ├── Home.tsx             # Página inicial (landing page)
+│   │   ├── IntegranteDetalhe.tsx# Detalhes dos integrantes
+│   │   ├── Integrantes.tsx      # Lista de integrantes
+│   │   └── Projeto.tsx          # Página sobre o projeto
+│   ├── App.tsx                  # Estrutura principal da aplicação
+│   ├── main.tsx                 # Ponto de entrada (renderização React)
+│   ├── index.css                # Estilos globais
+│   └── vite-env.d.ts            # Tipagem do ambiente Vite
 │
-│   ├── assets/
-│   │   ├── icons/
-│   │   │   ├── combo-chart--v1.png
-│   │   │   ├── edit.png
-│   │   │   └── pie-chart.png
-│   │   ├── Bruno.jpeg
-│   │   ├── Gabriel.jpeg
-│   │   ├── leo.jpeg
-│   │   ├── logo.png
-│   │   └── tecnologia.jpeg
-│
-│   ├── components/
-│   │   ├── Footer.tsx
-│   │   ├── Header.tsx
-│   │   └── IntegranteCard.tsx
-│
-│   ├── pages/
-│   │   ├── login/
-│   │   │   └── page.tsx
-│   │   ├── painel/
-│   │   │   ├── acompanhamentos/
-│   │   │   │   └── page.tsx
-│   │   │   ├── acompanhantes/
-│   │   │   │   └── page.tsx
-│   │   │   ├── atendimentos/
-│   │   │   │   └── page.tsx
-│   │   │   ├── consultas/
-│   │   │   │   └── page.tsx
-│   │   │   ├── especialidades/
-│   │   │   │   └── page.tsx
-│   │   │   ├── feedback/
-│   │   │   │   └── page.tsx
-│   │   │   ├── medicos/
-│   │   │   │   └── page.tsx
-│   │   │   ├── pacientes/
-│   │   │   │   └── page.tsx
-│   │   │   ├── remedios/
-│   │   │   │   └── page.tsx
-│   │   │   ├── HomePainel.tsx
-│   │   │   ├── layoutPainel.tsx
-│   │   │   └── PainelPage.tsx
-│   │   ├── Contato.tsx
-│   │   ├── FAQ.tsx
-│   │   ├── Home.tsx
-│   │   ├── IntegranteDetalhe.tsx
-│   │   ├── Integrantes.tsx
-│   │   └── Projeto.tsx
-│
-│   ├── App.tsx
-│   ├── main.tsx
-│   ├── index.css
-│   └── vite-env.d.ts
-│
-├── package.json
-├── tsconfig.json
-├── tailwind.config.js
-├── vite.config.ts
-├── .gitignore
-└── README.md
+├── package.json                # Dependências do projeto
+├── tsconfig.json               # Configuração do TypeScript
+├── tailwind.config.js          # Configuração do TailwindCSS
+├── vite.config.ts              # Configuração do Vite
+├── .gitignore                  # Ignora node_modules e arquivos desnecessários
+└── README.md                   # Este arquivo
 ---
 
 ##  Links Importantes
